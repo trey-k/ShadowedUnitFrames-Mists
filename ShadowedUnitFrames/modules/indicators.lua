@@ -1,4 +1,4 @@
-local Indicators = {list = {"status", "pvp", "leader", "resurrect", "masterLoot", "raidTarget", "ready", "role", "class", "phase", "happiness" }}
+local Indicators = {list = {"status", "pvp", "leader", "resurrect", "sumPending", "masterLoot", "raidTarget", "ready", "role", "lfdRole", "class", "phase", "questBoss", "petBattle", "arenaSpec"}}
 
 ShadowUF:RegisterModule(Indicators, "indicators", ShadowUF.L["Indicators"])
 
